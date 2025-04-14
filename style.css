@@ -1,0 +1,922 @@
+
+body {
+   background-image:url("images/background.jpg");
+   width: 100%;
+  
+   background-position: 50% 50%; 
+
+   background-repeat: no-repeat;
+
+}
+
+.header{
+  width: 100%;
+  background-color: rgba(147, 138, 138, 0.164);
+  z-index: 1;
+  height: 22px;
+  padding: 5px 0px 5px 0px;
+  margin-top: -8px;
+  margin-left: -8px;
+
+}
+.header img {
+  height: 35px;
+  width: 35px;
+ margin-top: -7px;
+  float: left;
+  margin-right: 6px;
+}
+.header #battery {
+width: 25px;
+margin-left: -5px;
+}
+.header #bluetooth {
+  height: 40px;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+.header #wifi {
+  height: 20px;
+  width: 20px;
+  margin-top: -1px;
+  margin-left: 5px;
+}
+
+.header #player-tool {
+  height: 25px;
+  width: 25px;
+  margin-top: -2px;
+}
+.header #search-tool {
+  margin-left: -5px;
+  margin-right: -22px;
+}
+.text {
+  width: 50%;
+  display: inline;
+}
+
+.text p{
+  float: left;
+  display: inline;
+  margin-right: 1px;
+  padding: 0px 15px;
+  margin-top: 2px;
+  cursor: pointer;
+  color: rgb(245, 229, 229);
+
+}
+.right-images {
+  float: right;
+
+
+  display: inline;
+}
+.right-images img{
+  height: 35px;
+  width: 10%;
+  cursor: pointer;
+}
+
+.container {
+    position: relative;
+    top: 600px;
+    display: flex;
+    justify-content: center;
+    width: 80%; 
+    border: rgb(204, 203, 203) 1px solid;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    padding: 1px;
+    min-width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+  object-fit: contain;
+  z-index: -1;
+
+}
+  
+
+.calender-top {
+  display: inline;
+  float: right;
+  margin-top: 28px;
+  margin-left: -72px;
+}
+.calender-top p{
+  display: inline;
+  color: rgb(242, 238, 238);
+ float: left;
+  margin-top: -27px;
+  margin-right: -2px;
+}
+
+#digital-clock {
+  display: inline;
+  float: right;
+  margin-right: 22px;
+}
+
+#day {
+  margin-left: 74px;
+}
+#date {
+  margin-left: 3px;
+}
+#month {
+  margin-left: 3px;
+}
+
+.container img{
+
+cursor: pointer;
+    height: 40px;
+object-fit: fill;
+margin: 1px;
+display: inline; /* Ensure the image is treated as a block element */
+ /* Distribute remaining space equally on the left */
+/* Distribute remaining space equally on the right */
+width: 100%; 
+max-width: 300px;
+
+}
+
+.container .joe-6 {
+    
+        height: 55px;
+    margin-bottom: -12px;
+    margin-top: -7px;   
+}
+
+
+.container .joe-8 {
+margin-left: 4px;
+margin-top:3px;
+}
+.container .joe-9 {
+    margin-left: 6px;
+    height: 43px;
+    }
+
+.container .joe-12 {
+  border-radius: 8px;
+}
+
+.joe-2 {
+    border-radius: 15px;
+}
+  
+
+
+
+/* Add Animation */
+.modal-content, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    transition: 0.3s;
+    
+  }
+  
+  /* Modal Content */
+  .modal-content1 {
+   width: 100%;
+  }
+
+  * Add Animation */
+.modal-content1, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 20px; /* Location of the box */
+
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 90%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    transition: 0.3s;
+   
+    
+  }
+
+  /* Modal Content */
+  .modal-content3, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    border: 2px black ;
+    border-radius: 0px 0px 22px 22px
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+
+.modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 90px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    transition: 0.3s;
+    border-radius: 0px 0px 22px 22px
+    
+  }
+  .modal-content4, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    border: 2px black ;
+    border-radius: 0px 0px 22px 22px
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+
+.modal4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    transition: 0.3s;
+    border-radius: 0px 0px 22px 22px
+    
+  }
+  .modal-content5, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    border: 2px black ;
+    border-radius: 0px 0px 22px 22px
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+
+.modal5 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    transition: 0.3s;
+    border-radius: 0px 0px 22px 22px
+    
+  }
+  .modal-content6, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    border: 2px black ;
+    margin-left: 20%;
+    
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+
+.modal6 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    transition: 0.3s;
+    border-radius: 0px 0px 22px 22px
+    
+  }
+  .modal-content7, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    border: 2px black ;
+    margin-left: 1%;
+    margin-top: -8%;
+    
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+
+.modal7 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 50%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    transition: 0.3s;
+    margin-top: 42px;
+float: left;
+    
+    
+  }
+  .modal-content8, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    border: 2px black ;
+    margin-left: 1%;
+    margin-top: -8%;
+    
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+
+.modal8 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    transition: 0.3s;
+float: left;
+    
+    
+  }
+  .modal-content9, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    border: 2px black ;
+    margin-left: 1%;
+    margin-top: -8%;
+    
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+
+.modal9 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    transition: 0.3s;
+float: left;
+  }
+  .modal-content10, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    border: 2px black ;
+margin-left: 22px;
+    margin-top: -8%;
+    
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+
+.modal10 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 1%;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    transition: 0.3s;
+    float: left;
+  }
+  
+  
+  /* The Close Button */
+  .close {
+    color:  rgb(250, 56, 56);
+    text-align: center;
+    float: left;
+    margin-right: 88%;
+    background-color: rgb(250, 56, 56);
+    border-radius: 50%;
+    height:11px;
+    width: 11px;
+    margin-top: 3px;
+    font-size: 1px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .close2 {
+    color:  rgb(250, 56, 56);
+    text-align: center;
+    float: right;
+    margin-right: 8%;
+    background-color: rgb(227, 221, 221);
+    border-radius: 50%;
+    height:11px;
+    width: 11px;
+    margin-top: 22px;
+    font-size: 1px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .close3 {
+    color:  rgb(250, 56, 56);
+    text-align: center;
+    float: left;
+ margin-left: 55px;
+    background-color: rgb(250, 56, 56);
+    border-radius: 50%;
+    height:11px;
+    width: 11px;
+    margin-top: -543px;
+    font-size: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: auto;
+    position: relative;
+  }
+
+  .close4 {
+    color:  rgb(250, 56, 56);
+    text-align: center;
+    float: right;
+    display: flex;
+    background-color: rgb(250, 56, 56);
+    border-radius: 50%;
+    height:11px;
+    width: 11px;
+    margin-top: -403px;
+    font-size: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    margin-right: 50%;
+
+
+  }
+
+  
+  .close5{
+    color:  rgb(250, 56, 56);
+    text-align: center;
+    float: right;
+    display: flex;
+    background-color: rgb(250, 56, 56);
+    border-radius: 50%;
+    height:11px;
+    width: 11px;
+    margin-top: -523px;
+    margin-right: 50%;
+    font-size: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+  }
+  .close6{
+    color:  rgb(250, 56, 56);
+    text-align: center;
+    float: left;
+    display: flex;
+    background-color: rgb(250, 56, 56);
+    border-radius: 50%;
+    height:11px;
+    width: 11px;
+    left: 17px;
+    top: 9px;
+
+    font-size: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+  }
+  .close7{
+    color:  rgb(250, 56, 56);
+    text-align: center;
+    float: right;
+    display: flex;
+    background-color: rgb(225, 18, 18);
+    border-radius: 50%;
+    height:11px;
+    width: 11px;
+    right: 21px;
+    margin-top: -611px;
+    font-size: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+  }
+  .close8{
+    color:  rgb(222, 15, 15);
+    text-align: center;
+
+    display: flex;
+    background-color: rgb(250, 250, 250);
+padding: 2px 2px 2px 10px;
+    height: 15px;
+    width: 15px;
+    top: -58px;
+   left:50%;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+    position: relative;
+  }
+  .close9{
+    color:  rgb(250, 56, 56);
+    text-align: center;
+    float: left;
+    display: flex;
+    background-color: rgb(250, 56, 56);
+    border-radius: 50%;
+    height:11px;
+    width: 11px;
+    top: 5px;
+   left: 50%;
+    font-size: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+  }
+  .close10{
+    color:  rgb(222, 15, 15);
+    text-align: center;
+
+    display: flex;
+    background-color: rgb(250, 250, 250);
+padding: 2px 2px 2px 8px;
+    height: 15px;
+    width: 15px;
+    top: -158px;
+   left:45%;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    align-content: center;
+    
+
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    max-width: 140px;
+    background-color: rgba(0, 0, 0, 0.381);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.332) transparent transparent transparent;
+
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+
+  
+
+
+
+  .calculator-grid {
+    display: grid;
+    justify-content: center;
+    background-color: rgba(10, 9, 9, 0);
+    width: 36%;
+   
+    border-radius: 22px;
+    align-content: center;
+    margin-top: -52px;
+    margin-left: 40%;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(50px, auto) repeat(5, 60px);
+    color: #fff;
+
+}
+
+.calculator-grid > button {
+    cursor: pointer;
+    font-size: 1rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgb(102, 98, 98);
+    color: #fff;
+    height: 52px;
+    border-radius: 22p;
+}
+
+.span-one {
+    grid-column: span 2;
+
+}
+.span-two {
+    grid-column: span 2;
+    border-radius: 0px 0px 22px 0px;
+}
+.decimal{
+    border-bottom-left-radius: 22px;
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: rgba(73, 71, 71, 1.75);
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    font-size: 1px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 22px 22px 22px 22px;
+}
+
+
+.output .current-operand {
+    color: white;
+    font-size: 2rem;
+    margin-top: 21px;
+    margin-right: 5px;
+}
+
+  /* music player  */
+
+ 
+
+
+
+
+
+  /* todo */
+
+
+
+
+
+.todo-app {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  max-width: 540px;
+  background: linear-gradient(135deg, #0d1060, #4244d8);
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+  color: #e3e4e6;
+  max-height: 450px;
+  overflow: scroll;
+}
+
+.todo-app h2{
+  color: rgb(231, 227, 227);
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 40%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e3e4e6;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+}
+button{
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #309622 ;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+ul li {
+  list-style: none;
+  font-size: 17px;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+ul li::before {
+  content: '';
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-image: url(images/unchecked.png);
+  background-size: cover;
+  background-position: center;
+  top: 12px;
+  left: 8px;
+  color: white;
+}
+
+ul li.checked {
+  color: #6bdd14;
+  text-decoration: line-through;
+}
+
+ul li.checked::before{
+  background-image: url(images/tick.png);
+}
+
+ul li span{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  color: #f6f0f0;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+ul li span:hover{
+  background: #edeef0;
+}
+
+
+/* draggable */
+
+
+
+@media only screen and (max-width: 600px) {
+  .text p{
+    font-size: 12px;
+    margin-right: -22px;
+    padding-right: 12px;
+  }
+
+  .header img{
+    margin-right: -12px;
+  }
+
+  .right-images img{
+   height: 25px;
+   width: 3%;
+   margin-right: 10px
+  }
+  
+  .right-images {
+    padding-right: -22px;
+  }
+  .header #battery {
+    width: 20px;
+    margin-left: -21px;
+    margin-top: -1px;
+    }
+    .header #bluetooth {
+      height: 40px;
+      width: 40px;
+      margin-top: -10px;
+      margin-left: -21px;
+    }
+    .header #wifi {
+      height: 15px;
+      width: 15px;
+      margin-top: -1px;
+      margin-left: -10px;
+    }
+    
+    .header #player-tool {
+      height: 20px;
+      width: 20px;
+      margin-top: -2px;
+      margin-left: 5px;
+    }
+    .header #search-tool {
+      margin-left: -15px;
+      height: 35px;
+      width: 35px;
+      
+    }
+    .calender-top {
+    margin-left: -47px;
+    }
+    .calender-top p{
+      font-size: 12px;
+      margin-top: -22px;
+    
+
+    }
+
+    .container {
+      top: 680px;
+    }
+
+    .todo-app {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      width: 75%;
+      max-width: 540px;
+      background: linear-gradient(135deg, #0d1060, #4244d8);
+      margin: 100px auto 20px;
+      padding: 40px 30px 70px;
+      border-radius: 10px;
+      color: #e3e4e6;
+      max-height: 450px;
+      overflow: scroll;
+    }
+}
