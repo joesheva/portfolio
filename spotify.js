@@ -16,72 +16,72 @@ const music = new Audio();
 
 const songs = [
     {
-        path: 'images/upbeat-motivation-rock-315219.mp3',
+        path: 'upbeat-motivation-rock-315219.mp3',
         displayName: 'Rollin & Scratchin',
-        cover: 'images/homework.jpg',
+        cover: 'homework.jpg',
         artist: 'Daft Punk',
      
     },
     {
-      path: 'images/upbeat-motivation-rock-315219.mp3',
+      path: 'upbeat-motivation-rock-315219.mp3',
         displayName: 'Too Long/Steam Machine',
-        cover: 'images/aliver.jpg',
+        cover: 'aliver.jpg',
         artist: 'Daft Punk',
     
     },
     {
-      path: 'images/upbeat-motivation-rock-315219.mp3',
+      path: 'upbeat-motivation-rock-315219.mp3',
         displayName: 'Instant Crush',
-        cover: 'images/randomdaft.webp',
+        cover: 'randomdaft.webp',
         artist: 'Daft Punk',
 
     },
     {
-      path: 'images/upbeat-motivation-rock-315219.mp3',
+      path: 'upbeat-motivation-rock-315219.mp3',
       displayName: 'Too Long',
-      cover: 'images/daft.jpeg',
+      cover: 'daft.jpeg',
       artist: 'Daft Punk',
      
   },
   {
-    path: 'images/upbeat-motivation-rock-315219.mp3',
+    path: 'upbeat-motivation-rock-315219.mp3',
       displayName: 'Something About Us',
-      cover: 'images/homework.jpg',
+      cover: 'homework.jpg',
       artist: 'Daft Punk',
 
   },
   {
-    path: 'images/upbeat-motivation-rock-315219.mp3',
+    path: 'upbeat-motivation-rock-315219.mp3',
       displayName: 'High Life',
-      cover: 'images/discovbery.png',
+      cover: 'discovbery.png',
       artist: 'Daft Punk',
     
   },
   {
-    path: 'images/upbeat-motivation-rock-315219.mp3',
+    path: 'upbeat-motivation-rock-315219.mp3',
     displayName: 'Face to Face',
-    cover: 'images/discovbery.png',
+    cover: 'discovbery.png',
     artist: 'Daft Punk',
 
 },
 {
-  path: 'images/upbeat-motivation-rock-315219.mp3',
+  path: 'upbeat-motivation-rock-315219.mp3',
     displayName: 'Robot Rock/Oh Yeah',
-    cover: 'images/aliver.jpg',
+    cover: 'aliver.jpg',
     artist: 'Daft Punk',
    
 },
 {
-  path: 'images/upbeat-motivation-rock-315219.mp3',
+  path: 'upbeat-motivation-rock-315219.mp3',
     displayName: 'Da Funk',
-    cover: 'images/homework.jpg',
+    cover: 'homework.jpg',
     artist: 'Daft Punk',
 
 },
 {
-  path: 'images/upbeat-motivation-rock-315219.mp3',
+  path: 'upbeat-motivation-rock-315219.mp3',
     displayName: 'Teachers',
-    cover: 'images/homework.jpg',
+    cover: 'homework.jpg',
     artist: 'Daft Punk',
   
 },
