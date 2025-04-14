@@ -1,0 +1,279 @@
+h2 {
+    font-size: 22px;
+
+    background-size: 100%;
+    border-radius: 10px;
+    text-align: center;
+  
+
+}
+
+.port-title {
+padding: 10px;
+opacity: 90%;
+
+}
+
+.port-title p{
+    font-size: 12px;
+}
+/* Styling for the title above the slider */
+.slider-title {
+    
+    margin-bottom: 20px; /* Space below the title */
+    font-size: 42px;
+
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(13, 14, 13);
+    color: #f6ecde;
+}
+
+
+
+/* Main container for the slider - this holds the images and navigation buttons */
+.slider-container {
+    position: relative; /* Allows for absolute positioning of navigation buttons */
+    width: 80%; /* Sets the slider width to 60% of the parent container */
+    max-width: 800px; /* Maximum width for larger screens */
+    overflow: hidden; /* Hides the overflow content (only one image is visible at a time) */
+    border-radius: 10px; /* Rounds the corners of the slider */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+    height: 450px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Flexbox container that holds all the slides */
+.slider {
+    display: flex; /* Enables flexbox layout to line up slides horizontally */
+    transition: transform 0.4s ease-in-out; /* Smooth transition when sliding between images */
+}
+
+/* Each individual slide - takes up full width of the container */
+.slide {
+    min-width: 100%; /* Each slide takes up 100% of the slider container's width */
+    height: 450px; /* Fixed height for each slide */
+    transition: transform 0.5s ease-in-out; /* Smooth transition when slides are changed */
+}
+
+/* Ensures that images fill the slide area while maintaining aspect ratio */
+.slide img {
+    position: relative;
+    width: 100%; /* Image width matches the slide width */
+    height: 100%; /* Image height matches the slide height */
+    object-fit: cover; /* Images are scaled to cover the entire slide, cropping if necessary */
+    border-radius: 10px; /* Rounds the corners of the images to match the slider */
+}
+
+/* Common styling for both previous and next navigation buttons */
+.prev, .next {
+    position: absolute; /* Absolute positioning within the slider container */
+    top: 50%; /* Centers the button vertically */
+    transform: translateY(-50%); /* Offsets the button position by half its height */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white; /* White color for the arrow icons */
+    border: none; /* Removes default button borders */
+    width: 40px; /* Fixed width for the buttons */
+    height: 40px; /* Fixed height for the buttons */
+    cursor: pointer; /* Changes the cursor to pointer on hover */
+    z-index: 10; /* Ensures buttons appear above the slider content */
+    border-radius: 50%; /* Makes the buttons round */
+    transition: background-color 0.3s ease; /* Smooth transition for background color on hover */
+    display: flex; /* Enables flexbox for centering the arrow inside the button */
+    justify-content: center; /* Centers arrow horizontally */
+    align-items: center; /* Centers arrow vertically */
+    padding: 0; /* Removes any default padding */
+}
+
+/* Positioning the previous button to the left */
+.prev {
+    left: 10px; /* Positions the button 10px from the left edge */
+}
+
+/* Positioning the next button to the right */
+.next {
+    right: 10px; /* Positions the button 10px from the right edge */
+}
+
+/* Hover effect for navigation buttons */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darkens the button background on hover */
+    height: 80px;
+    width: 80px;
+}
+
+/* Container for the dot indicators below the slider */
+.dots-container {
+    position: absolute;
+    margin-top: 646px;
+    justify-content: center; /* Centers the dots horizontally */
+    align-items: center; /* Centers the dots vertically */
+    z-index: 11; /* Ensures buttons appear above the slider content */
+    margin-bottom: 1px;
+}
+
+/* Common styling for each individual dot */
+.dot {
+    height: 15px; /* Fixed height for the dots */
+    width: 15px; /* Fixed width for the dots */
+    margin: 0 5px; /* Spacing between the dots */
+    background-color: #fecfef; /* Semi-transparent white background */
+    border-radius: 50%; /* Makes the dots round */
+    display: inline-block; /* Ensures dots are inline */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color on hover */
+    border:1px solid rgb(10, 9, 9);    
+    z-index: 11; /* Ensures buttons appear above the slider content */
+}
+
+/* Styling for the active dot - indicates the current slide */
+.dot.active {
+    background-color: #ff9a9e; /* Solid white background for the active dot */
+    z-index: 11;
+}
+
+
+
+.overlay-text{
+    position: absolute;
+bottom: 22px;
+width: 80%;
+    transform: translate(13%, 10%); 
+    background-color: #000000; 
+opacity: 80%;
+color: #f6ecde;
+    padding: 10px 20px; 
+    font-size: 12px; 
+    text-align: center;
+    border-radius: 20px;
+    max-height: 312px;
+    min-height: 312px;
+    margin-bottom: 2px;
+}
+
+.overlay-text p {
+    font-size: 16px;
+}
+
+.button-group {
+    display: flex;
+
+    justify-content: center; /* Centers the dots horizontally */
+    align-items: center; /* Centers the dots vertically */
+min-height: 222px;
+top: 50%;
+left: 35%;
+  position: absolute;
+  margin-bottom: 122px;
+padding: auto;
+
+}
+
+.btn2 {
+    background-color: #000000;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 10px; 
+    cursor: pointer;
+top: 50%;
+  position: relative;
+  margin-bottom: 82px;
+  font-size: 70px;
+
+}
+.btn1{
+    background-color: #000000;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 10px; 
+    cursor: pointer;
+top: 50%;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+
+/* Container for the dot indicators below the slider */
+.dots-container {
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 40%;
+    margin-right: 40%;
+    justify-content: center; /* Centers the dots horizontally */
+    align-items: center; /* Centers the dots vertically */
+    z-index: 11; /* Ensures buttons appear above the slider content */
+    margin-bottom: 1px;
+}
+
+/* Common styling for each individual dot */
+.dot {
+    width: 15px; /* Fixed width for the dots */
+    margin: 0 5px; /* Spacing between the dots */
+    background-color: #fecfef; /* Semi-transparent white background */
+    border-radius: 50%; /* Makes the dots round */
+    display: inline-block; /* Ensures dots are inline */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color on hover */
+    border:1px solid rgb(10, 9, 9);    
+    z-index: 11; /* Ensures buttons appear above the slider content */
+}
+
+/* Styling for the active dot - indicates the current slide */
+.dot.active {
+    background-color: #ff9a9e; /* Solid white background for the active dot */
+    z-index: 11;
+}
+
+@media only screen and (max-width: 600px) {
+    .slider-container {
+        position: relative; /* Allows for absolute positioning of navigation buttons */
+        width: 90%; /* Sets the slider width to 60% of the parent container */
+        margin-left: 5%;
+    }
+    .overlay-text{
+        position: absolute;
+        bottom: 22px;
+        height: 90%;
+        width: 80%;
+        margin-top: -22px;
+        margin-left: -25px;
+    }
+
+
+.overlay-text p {
+    font-size: 12px;
+}
+
+    .btn2 {
+        font-size: 12px;
+        height: 52px;
+        width: 52px;
+    
+    }
+ 
+    .prev, .next {
+        width: 20px; /* Fixed width for the buttons */
+        height: 20px; /* Fixed height for the buttons */
+       
+    }
+    
+    .prev:hover, .next:hover {
+        background-color: rgba(0, 0, 0, 0.8); /* Darkens the button background on hover */
+        height: 30px;
+        width: 30px;
+    }
+
+
+    .dots-container {
+        position: absolute;
+        margin-top: -26px;
+        margin-left:30%;
+        margin-right: 20%;
+        justify-content: center; /* Centers the dots horizontally */
+        align-items: center; /* Centers the dots vertically */
+      
+    }
+
+}
