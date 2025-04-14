@@ -74,7 +74,7 @@ margin-left: -5px;
 }
 .right-images img{
   height: 35px;
-  width: 10%;
+   padding-right: 12px;
   cursor: pointer;
 }
 
@@ -136,7 +136,7 @@ margin: 1px;
 display: inline; /* Ensure the image is treated as a block element */
  /* Distribute remaining space equally on the left */
 /* Distribute remaining space equally on the right */
-width: 100%; 
+
 max-width: 300px;
 
 }
