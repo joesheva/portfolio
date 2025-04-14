@@ -1,0 +1,757 @@
+
+.spotify-body{
+    width: 80%;
+    min-width: 100px;
+    background-color: rgb(3, 2, 2);
+    height: 89%;
+    overflow-x: hidden;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.top-bar {
+    height: 50px;
+    cursor: move;
+    background-color: rgb(8, 8, 8);
+}
+
+.top-bar img{
+    height: 30px;
+    width: 30px;
+    float: left;
+    top: 10px;
+    margin-top: 12px;
+}
+
+.arrow-left {
+    margin-left: 10%;
+}
+.arrow-right {
+    margin-left: 1%;
+}
+
+.home-button img{
+    height: 50px;
+    width: 50px;
+    margin-left: 1%;
+    margin-top: 2px;
+}
+
+.search-bar{
+    width: 58%;
+    height: 30px;
+    align-content: center;
+    border-radius: 22px;
+}
+
+.search-bar p {
+    color: rgb(213, 210, 210);
+    background-color: rgb(69, 68, 68) ;
+    padding: 10px 5px;
+    border-radius: 22px;
+    margin-top: 6px;
+    min-width: 40%;
+    margin-left: 1%;
+}
+
+.search-bar img{
+    height: 50px;
+    width: 50px;
+    padding-left: 5px;
+    margin-top: -2px;
+}
+
+.king img{
+    height: 45px;
+    width:45px;
+    float: right;
+    border-radius: 50%;
+    margin-top: -26px;
+    margin-right: 1%;
+}
+
+.library {
+    height: 450px;
+    width: 36%;
+    background-color: rgb(19, 18, 18);
+    border-radius: 22px 22px 0px 0px;
+    margin-left: 1%;
+    margin-top: 1%;
+    overflow-y: scroll;
+}
+
+.library h1{
+    font-size: 22px;
+    color: ghostwhite;
+    float: left;
+    cursor: pointer;
+}
+
+.library img{
+    height: 50px;
+    width: 50px;
+    top: 22px;
+    float: left;
+    cursor: pointer;
+
+}
+
+.library h2 {
+    color: ghostwhite;
+    float: right;
+    margin-top: 10px;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+.text-bubbles {
+    width: 100%;
+    margin-left: 5px;
+    display: inline;
+    float: right;
+}
+
+.text-bubbles button{
+    float: left;
+    margin-left: 5%;
+    border-radius: 50%;
+    padding: 5px;
+    color: white;
+    background-color: rgb(56, 57, 58);
+    box-shadow: none;
+    border-style: none;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.text-bubbles p {
+    font-size: 15px;
+    border-radius: 22px;
+    margin-right: 3%;
+    color: rgb(227, 230, 235);
+    font-weight: bold;
+    background-color: rgb(56, 57, 58);
+    float: right;
+    padding: 5px 5px;
+    margin-top: -29px;
+    cursor: pointer;
+}
+
+    .playlist-holder{
+    top: 22px;
+    }
+.playlist  img{
+    border-radius: 12px;
+    display: flex;
+    padding-right: 2px;
+}
+
+.playlist1  img{
+    border-radius: 12px;
+    display: flex;
+    padding-right: 2px;
+}
+.playlist{
+    height: 12px;
+    display: flex;
+    margin-left: 1%;
+    float: left;
+    margin-top: 18%;
+    width: 100%;
+}
+.playlist1{
+    height: 12px;
+    display: flex;
+    margin-left: 1%;
+    float: left;
+    margin-top: 1%;
+    width: 100%;
+}
+h1 {
+    display: flex;
+    float: left;
+}
+.playlist  p{
+    margin-top: 2px;
+    font-size: 18px;
+    float: left;
+    color: rgb(239, 236, 236);
+}
+
+.playlist1  p{
+    margin-top: 2px;
+    font-size: 18px;
+    float: left;
+    color: rgb(239, 236, 236);
+}
+
+.artist-page {
+    float: right;
+    width: 61%;
+    height: 450px;
+    overflow-x: auto;
+    background-color: rgb(19, 18, 18);
+    margin-top: -449px;
+    border-radius: 22px;
+    margin-right: 1%;
+    overflow-y : scroll;
+    position: relative;
+    display: inline;
+}
+
+.artist-page img{
+    height: 223px;
+    width: 100%;
+}
+
+.bottom-left {
+    left: 16px;
+    color: white;
+    font-size: 42px;
+    margin-top: -102px;
+    text-decoration: solid;
+    margin-left: 3%;
+}
+.bottom-left1 {
+    left: 16px;
+    color: white;
+    font-size: 22px;
+    margin-top: -12px;
+    text-decoration: solid;
+    margin-left: 3%;
+}
+h3{
+    font-size: 22px;
+    color: white;
+    margin-left: 3%;
+  text-align: left;
+}
+.pop-tunes {
+    height: 45px;
+    cursor: pointer;
+    margin-top: 12px;
+    border-radius: 12px;
+}
+.pop-tunes img{
+    height: 45px;
+    width: 45px;
+    border-radius: 6px;
+    display: inline;
+    margin-left: 6%;
+    
+}
+
+.pop-tunes p{
+padding-left: 22px;
+ color: white;
+ margin-top: -36px;
+ margin-left: 62px;
+}
+.pop-tunes:hover{
+    background-color: rgba(240, 255, 255, 0.351);
+}
+
+.pop-image {
+    padding-top: 122px;
+    top: 22px;
+}
+.disography {
+    padding-left: 15px;
+}
+.dis-albums {
+    width: 25%;
+   float: left;
+   align-content: center;
+   height: 200px;
+}
+
+.dis-albums:hover{
+    background-color: rgba(240, 255, 255, 0.351);
+    background-size: 90%;
+}
+.disography img {
+    display: inline;
+    height: 100px;
+    width: 90%;
+    margin-left: 5%;
+    cursor: pointer;
+    align-items: center;
+}
+
+.disography p{
+    color: white;
+    font-size: 12px;
+    padding-left: 5%;
+}
+
+    .rest-of h3{
+    text-align: left;
+    margin-left: -75%;
+
+    }
+    .rest-of{
+        float: left;
+        margin-left: 122px;
+    }
+    .also-like {
+    display: flex;
+    margin-top: 222px;
+    width: 100%;
+}
+
+.also-like  img{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+  
+    
+}
+
+.likes {
+    width: 100%;
+   float: left;
+   display: inline;
+    padding-left: 2%;
+
+}
+
+.likes:hover{
+    background-color: rgba(240, 255, 255, 0.351);
+}
+
+.also-like p {
+    color: azure;
+    font-size: 12px;
+    text-align: center;
+    margin-left: -22px;
+    width: 100%;
+}
+
+#julian {
+    text-align: left;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.bottom-pic img{
+    height: 300px;
+    padding-left: 2%;
+width: 100%;
+}
+
+.bottom-left2 {
+    left: 16px;
+    color: rgb(235, 231, 231);
+    text-decoration: solid;
+    font-size: 18px;
+    margin-top: -102px;
+    font-weight: bold;
+    margin-left: 3%;
+}
+
+.joe {
+    color: aliceblue;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container{
+    background-color: #100f0f;
+    height: 100px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+    border-radius: 0px;
+}
+
+.container:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+.player-img{
+    width:80px;
+    height: 80px;
+ 
+}
+
+.player-img img{
+    object-fit: cover;
+    border-radius: 8px;
+    float: left;
+    padding-left: 2%;
+    margin-left: 2%;
+    box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+.player-img:hover img{
+    box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.8);
+}
+
+.player-img img.active{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    opacity: 1;
+    margin-left: 22px;
+    margin-top: 10%;
+}
+.artist{
+    padding-top:-12px;
+}
+#music-title{
+    font-size: 12px;
+    float: left;
+    font-weight: 500;
+    color: rgb(223, 218, 218);
+    margin-top: -52px;
+    padding-left: 2px;
+}
+
+#music-artist{
+    font-size: 12px;
+    float: left;
+   margin-left: 2px;
+    margin-top: -28px;
+    font-weight: 500;
+    color: rgb(223, 218, 218);
+}
+
+
+.player-progress{
+    background-color: #484646;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 12%;
+    height: 6px;
+    width: 30%;
+    float: right;
+    margin-top: -18px;
+    margin-right: 30%;
+}
+
+.progress{
+    background-color: #212121;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+    margin-left: 0%;
+}
+#current-time {
+  color: rgb(223, 218, 218);
+}
+#duration {
+  color: rgb(223, 218, 218);
+}
+.music-duration{
+    position: relative;
+    top: -25px;
+    display: flex;
+    justify-content: space-between;
+}
+#progress {
+  background-color: rgb(223, 218, 218);
+}
+.player-controls{
+    position: relative;
+    top: 5px;
+    float: left;
+    width: 40%;
+    display: inline;
+    margin-top: -62px;
+    margin-left: 36%;
+    padding-left: 20px;
+    border: 22px;
+}
+
+.fa-solid{
+    font-size: 30px;
+    color: #666;
+    margin-right: 10px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s ease;
+    display: inline;
+}
+
+#play {
+  color: rgb(223, 218, 218);
+}
+
+.fa-solid:hover{
+    filter: brightness(40%);
+}
+
+.play-button{
+    font-size: 30px;
+    position: relative;
+    top: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .search-bar {
+        width: 45%;
+    }
+    
+    .search-bar img{
+        margin-top: 12px;
+        height: 25px;
+        width: 25px;
+    }
+    .search-bar p{
+        height: 15px;
+        font-size: 10px;
+    }
+
+    .arrow-left {
+        margin-left: 5%;
+        height: 20px;
+    }
+    .arrow-right {
+        margin-left: 1%;
+    }
+
+    .home-button img{
+        height: 40px;
+        width: 40px;
+        margin-top: 8px;
+    }
+
+    .king img{
+        height:30px;
+        width: 30px;
+        margin-right: 22px;
+        margin-top: -18px;
+    }
+
+    .library h1 {
+        font-size: 12px;
+        padding-bottom: 22px;
+    }
+
+    .library h2{
+        font-size: 12px;
+    }
+
+    .library img{
+        height: 30px;
+        width: 30px;
+    }
+
+    text-bubbles {
+        margin-top: 22px;
+        width: 100%;
+  
+        display: inline;
+        float: right;
+    }
+    
+    .text-bubbles button{
+        float: left;
+        margin-left: 1%;
+        border-radius: 50%;
+        font-size: 10px;
+        margin-top: -12px;
+        margin-bottom: 11px;
+        color: white;
+        background-color: rgb(56, 57, 58);
+        box-shadow: none;
+        border-style: none;
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+        padding-bottom: 2px;
+    }
+
+    .text-bubbles p {
+        font-size: 9px;
+        border-radius: 22px;
+        white-space: normal;
+        display: inline;
+        color: rgb(227, 230, 235);
+        background-color: rgb(56, 57, 58);
+        float: right;
+        overflow: scroll;
+        cursor: pointer;
+    }
+
+    .playlist  p{
+        margin-top: 2px;
+        font-size: 10px;
+    }
+    
+    .playlist1  p{
+        margin-top: 2px;
+        font-size: 10px;
+    }
+
+    .bottom-left {
+        font-size: 25px;
+    }
+
+    .bottom-left1 {
+        font-size: 15px;
+        padding-bottom: 33px;
+    }
+
+    .artist-page h3{
+        margin-top: 27px;
+        font-size: 12px;
+    }
+
+    .dis-albums {
+        width: 25%;
+       float: left;
+       align-content: center;
+       height: 200px;
+
+       padding-top: -22px;
+    }
+
+    .disography img {
+        display: inline;
+        height: 50px;
+        width: 90%;
+        margin-left: 5%;
+        cursor: pointer;
+        align-items: center;
+        padding-top: -122px;
+    }
+
+    .disography {
+        padding-left: 1px;
+        margin-top: -52px;
+
+    }
+
+    .disography p{
+        color: white;
+        font-size: 8px;
+        padding-left: 5%;
+    }
+
+    .rest-of h3{
+        float: left;
+        font-size: 12px;
+      margin-left: -115px;
+    }
+
+    
+    .also-like  img{
+        display: flex;
+        height: 70px;
+        width: 80%;
+        cursor: pointer;
+    }
+
+    .also-like p {
+        font-size: 7px;
+        text-align: right;
+        margin-left: -22px;
+        width: 100%;
+    }
+    
+    #julian {
+        text-align: center;
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .bottom-left2{
+        font-size: 12px;
+       }
+    
+
+
+
+
+
+.player-img{
+    width:50px;
+    height: 50px;
+ 
+}
+
+.player-img img{
+    object-fit: cover;
+    border-radius: 8px;
+    float: left;
+    padding-left: 2%;
+    margin-left: 2%;
+    box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+#music-title{
+    font-size: 9px;
+    margin-top: -20px;
+    padding-left: 0px;
+}
+
+#music-artist{
+    font-size: 9px;
+
+    margin-top: -38px;
+  
+}
+
+
+.player-progress{
+    border-radius: 5px;
+    height: 6px;
+    width: 40%;
+    float: right;
+    margin-top: -3px;
+    margin-right: 8%;
+}
+
+
+.player-controls{
+    position: relative;
+    top: 5px;
+    float: left;
+    width: 30%;
+    display: inline;
+    margin-top: -52px;
+    margin-left: 56%;
+    padding-left: 20px;
+    border: 22px;
+}
+
+.fa-solid{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.play-button{
+    font-size: 20px;
+    position: relative;
+    top: 1px;
+}
+
+}
