@@ -624,47 +624,6 @@ padding: 2px 2px 2px 8px;
     position: relative;
     display: inline-block;
     align-content: center;
-    
-
-  }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: max-content;
-    max-width: 140px;
-    background-color: rgba(0, 0, 0, 0.381);
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 10px;
-    position: absolute;
-    z-index: 1;
-    bottom: 150%;
-    left: 50%;
-    margin-left: -60px;
-    text-align: center;
-  }
-  
-  .tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.332) transparent transparent transparent;
-
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
-
-   .tooltip {
-    position: relative;
-    display: inline-block;
-    align-content: center;
    
 
     white-space: nowrap;
@@ -687,18 +646,6 @@ padding: 2px 2px 2px 8px;
    
     margin-left: -80%;
     text-align: center;
-  }
-  
-  .tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.332) transparent transparent transparent;
-
   }
   
   .tooltip:hover .tooltiptext {
@@ -733,18 +680,7 @@ padding: 2px 2px 2px 8px;
     margin-left: -120%;
     text-align: center;
   }
-  
-  .tooltip1 .tooltiptext1::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.332) transparent transparent transparent;
 
-  }
   
   .tooltip1:hover .tooltiptext1 {
     visibility: visible;
@@ -780,17 +716,6 @@ padding: 2px 2px 2px 8px;
     text-align: center;
   }
   
-  .tooltip2 .tooltiptext2::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.332) transparent transparent transparent;
-
-  }
   
   .tooltip2:hover .tooltiptext2 {
     visibility: visible;
@@ -826,18 +751,7 @@ padding: 2px 2px 2px 8px;
     margin-left: -90%;
     text-align: center;
   }
-  
-  .tooltip3 .tooltiptext3::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.332) transparent transparent transparent;
 
-  }
   
   .tooltip3:hover .tooltiptext3 {
     visibility: visible;
@@ -872,18 +786,6 @@ padding: 2px 2px 2px 8px;
    
     margin-left: -98%;
     text-align: center;
-  }
-  
-  .tooltip4 .tooltiptext4::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.332) transparent transparent transparent;
-
   }
   
   .tooltip4:hover .tooltiptext4 {
@@ -921,18 +823,6 @@ padding: 2px 2px 2px 8px;
     text-align: center;
   }
   
-  .tooltip5 .tooltiptext5::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.332) transparent transparent transparent;
-
-  }
-  
   .tooltip5:hover .tooltiptext5 {
     visibility: visible;
     right: 30%;
@@ -968,17 +858,7 @@ padding: 2px 2px 2px 8px;
     text-align: center;
   }
   
-  .tooltip6 .tooltiptext6::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.332) transparent transparent transparent;
 
-  }
   
   .tooltip6:hover .tooltiptext6 {
     visibility: visible;
@@ -1015,17 +895,7 @@ padding: 2px 2px 2px 8px;
     text-align: center;
   }
   
-  .tooltip7 .tooltiptext7::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.332) transparent transparent transparent;
 
-  }
   
   .tooltip7:hover .tooltiptext7 {
     visibility: visible;
@@ -1033,7 +903,6 @@ padding: 2px 2px 2px 8px;
     align-content: center;
  
   }
-
 
 
   
