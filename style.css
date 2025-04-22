@@ -1,6 +1,6 @@
 
 body {
-   background-image:url("background.jpg");
+   background-image:url("images/background.jpg");
    width: 100%;
   
    background-position: 50% 50%; 
@@ -74,7 +74,7 @@ margin-left: -5px;
 }
 .right-images img{
   height: 35px;
-   padding-right: 12px;
+  padding-right: 12px;
   cursor: pointer;
 }
 
@@ -88,7 +88,7 @@ margin-left: -5px;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     padding: 1px;
-    min-width: 80%;
+    min-width: 40%;
     margin-left: 10%;
     flex-wrap: wrap;
   object-fit: contain;
@@ -164,6 +164,11 @@ margin-top:3px;
 
 .joe-2 {
     border-radius: 15px;
+}
+
+.joe-13 {
+  width: 2.3em;
+  line-height: 12vh;
 }
   
 
@@ -354,7 +359,7 @@ margin-top:3px;
     left: 0;
     top: 0;
     width: 100%; /* Full width */
-    height: 50%; /* Full height */
+    height: 2000px; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     transition: 0.3s;
     margin-top: 42px;
@@ -445,19 +450,50 @@ margin-left: 22px;
     transition: 0.3s;
     float: left;
   }
+
+  .modal-content11, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+border: none;
+margin-left: 22px;
+    margin-top: -8%;
+    
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+
+.modal11 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top:250px; /* Location of the box */
+    left: 1%;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 1040%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    transition: 0.3s;
+    float: left;
+    border: none;
+    line-height: min(10vh, 100px);
+  }
+  
   
   
   /* The Close Button */
   .close {
     color:  rgb(250, 56, 56);
-    text-align: center;
     float: left;
-    margin-right: 88%;
+    margin-right: 94%;
+    display: block;
+    line-height: 12vh;
     background-color: rgb(250, 56, 56);
     border-radius: 50%;
     height:11px;
     width: 11px;
-    margin-top: 3px;
     font-size: 1px;
     font-weight: bold;
     cursor: pointer;
@@ -465,27 +501,45 @@ margin-left: 22px;
   .close2 {
     color:  rgb(250, 56, 56);
     text-align: center;
-    float: right;
-    margin-right: 8%;
-    background-color: rgb(227, 221, 221);
+    float: left;
+ margin-left: 20%;
+    background-color: rgb(238, 9, 9);
     border-radius: 50%;
     height:11px;
     width: 11px;
-    margin-top: 22px;
+    margin-top: -603px;
     font-size: 1px;
     font-weight: bold;
     cursor: pointer;
+    z-index: auto;
+    position: relative;
+  }
+  .close19 {
+    color:  rgb(250, 56, 56);
+    text-align: center;
+    float: left;
+ margin-left: 50%;
+    background-color: rgb(238, 9, 9);
+    border-radius: 50%;
+    height:11px;
+    width: 11px;
+    margin-top: -63px;
+    font-size: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: auto;
+    position: relative;
   }
   .close3 {
     color:  rgb(250, 56, 56);
     text-align: center;
     float: left;
- margin-left: 55px;
-    background-color: rgb(250, 56, 56);
+ margin-left: 50%;
+    background-color: rgb(238, 9, 9);
     border-radius: 50%;
     height:11px;
     width: 11px;
-    margin-top: -543px;
+    margin-top: -473px;
     font-size: 1px;
     font-weight: bold;
     cursor: pointer;
@@ -554,12 +608,13 @@ margin-left: 22px;
     text-align: center;
     float: right;
     display: flex;
-    background-color: rgb(225, 18, 18);
+    background-color: rgb(235, 10, 10);
     border-radius: 50%;
     height:11px;
     width: 11px;
-    right: 21px;
-    margin-top: -611px;
+    right: 20%;
+
+    margin-top: -511px;
     font-size: 1px;
     font-weight: bold;
     cursor: pointer;
@@ -612,6 +667,24 @@ padding: 2px 2px 2px 8px;
     width: 15px;
     top: -158px;
    left:45%;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+    position: relative;
+  }
+  .close11{
+    color:  rgb(222, 15, 15);
+    text-align: center;
+
+    position: absolute;
+    background-color: rgb(215, 22, 22);
+padding: 2px 2px 2px 8px;
+    height: 45px;
+    width: 45px;
+    top: -57vh;
+   left:50%;
     font-size: 10px;
     font-weight: bold;
     cursor: pointer;
@@ -904,69 +977,119 @@ padding: 2px 2px 2px 8px;
  
   }
 
+  .tooltip8 {
+    position: relative;
+    display: inline-block;
+    align-content: center;
+   
 
+    white-space: nowrap;
+
+  }
+  
+  .tooltip8 .tooltiptext8 {
+    visibility: hidden;
+    width: max-content;
+    max-width: 140px;
+    background-color: rgba(0, 0, 0, 0.381);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+   
+    margin-left: -90%;
+    text-align: center;
+  }
   
 
-
-
-  .calculator-grid {
-    display: grid;
-    justify-content: center;
-    background-color: rgba(10, 9, 9, 0);
-    width: 36%;
-   
-    border-radius: 22px;
+  
+  .tooltip8:hover .tooltiptext8 {
+    visibility: visible;
+    right: 10%;
     align-content: center;
-    margin-top: -52px;
-    margin-left: 40%;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(50px, auto) repeat(5, 60px);
-    color: #fff;
+ 
+  }
 
+
+
+
+/* calculator */
+
+#calc-btn {
+  cursor: pointer;
+  font-size: .8rem;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 0px;
+  background-color: rgba(235, 229, 229, 0.709);
+}
+.calculator-grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  color: black;
+  min-height: 100vh;
+  margin-top: -34vh;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: minmax(60px, auto) repeat(5, 60px);
 }
 
 .calculator-grid > button {
-    cursor: pointer;
-    font-size: 1rem;
-    border: 1px solid white;
-    outline: none;
-    background-color: rgb(102, 98, 98);
-    color: #fff;
-    height: 52px;
-    border-radius: 22p;
+  cursor: pointer;
+  font-size: .8rem;
+  border: 1px solid white;
+  color: rgb(0, 0, 0);
+  outline: none;
+  padding: .5em;
+  background-color: rgba(235, 229, 229, 0.716);
 }
 
-.span-one {
-    grid-column: span 2;
-
+.calculator-grid > button:hover {
+  background-color: rgba(245, 239, 238, 0.9);
 }
+
 .span-two {
-    grid-column: span 2;
-    border-radius: 0px 0px 22px 0px;
-}
-.decimal{
-    border-bottom-left-radius: 22px;
+  grid-column: span 2;
 }
 
 .output {
-    grid-column: 1 / -1;
-    background-color: rgba(73, 71, 71, 1.75);
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    font-size: 1px;
-    word-wrap: break-word;
-    word-break: break-all;
-    border-radius: 22px 22px 22px 22px;
+  border: 1px solid white;
+  grid-column: 1 / -1;
+  background-color: rgba(0, 0, 0, .75);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 0px;
+ border-radius: 22px 22px 0px 0px;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
+.output .previous-operand {
+  color: rgba(255, 255, 255, .75);
+  font-size: .5rem;
+  margin-right: 2em;
+  padding: 0;
+}
 
 .output .current-operand {
-    color: white;
-    font-size: 2rem;
-    margin-top: 21px;
-    margin-right: 5px;
+  color: white;
+  font-size: 1rem;
+  margin-right: .5em;
 }
+#decimal {
+  border-radius: 0px 0px 0px 22px;
+}
+
+#equals {
+  border-radius: 0px 0px 22px 0px;
+}
+
 
   /* music player  */
 
@@ -1046,7 +1169,7 @@ ul li::before {
   height: 28px;
   width: 28px;
   border-radius: 50%;
-  background-image: url(unchecked.png);
+  background-image: url(images/unchecked.png);
   background-size: cover;
   background-position: center;
   top: 12px;
@@ -1060,7 +1183,7 @@ ul li.checked {
 }
 
 ul li.checked::before{
-  background-image: url(tick.png);
+  background-image: url(images/tick.png);
 }
 
 ul li span{
