@@ -24,14 +24,16 @@ var modal1 = document.getElementById("myModal1");
 var btn = document.getElementById("myBtn2");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close2")[0];
+var span = document.getElementsByClassName("close19")[0];
 // When the user clicks the button, open the modal 
 btn.onclick = function() {
   modal1.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-
+span.onclick = function() {
+  modal1.style.display = "none";
+}
 
 // modal for safari
 var modal3 = document.getElementById("myModal3");
@@ -189,6 +191,28 @@ btn.onclick = function() {
 span.onclick = function() {
   modal10.style.display = "none";
 }
+
+// modal for projects
+var modal11 = document.getElementById("myModal11");
+
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn11");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close11")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal11.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal11.style.display = "none";
+}
+
+
 
 
 
@@ -419,4 +443,6 @@ function showTask(){
 showTask();
 
 
-// Make the DIV element draggable:
+// calculator
+
+
